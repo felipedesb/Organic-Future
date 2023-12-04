@@ -1,0 +1,1181 @@
+@charset "utf-8";
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:  #e5d8c5;
+    color: #270f27;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+/*==========inico do sobre nos*/
+ .sobrenos { /*usei para configurar a seção sobre nos*/
+    background-image: url('fundo1.jpg');
+    background-position: center ;
+    background-size: cover;
+    float: left;
+    padding: 50px;
+    background-color:#e5d8c5;
+    width:100%;  
+    min-height: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ }
+ .titlesobre {  /*usei para configur o titulo do sobre nos*/
+   text-align: center;
+    font-size: 100px;
+ }
+ .psobre { /*usei para configurar o paragrafo do sobre nos*/ 
+    margin-top: 50px;
+    margin-bottom: 25%;
+    margin-left:30%;  
+   /* margin-right:75px;      left 450px*/
+    margin-right: 30%;
+    font-size: 30px;
+    padding-bottom: 5%;
+    padding: 3%;
+    opacity: 0.8;
+    border-radius: 10px;
+    background: #98a794;
+    color: #32293c; 
+
+ }
+ .btnsobre { /*usei para configurar o botao "sobre nos"*/
+margin-left:35%;
+color: #b6c2aa;
+padding: 10px;
+border-radius: 10px;
+background-color: #485158;
+ }
+ .btnsobre:hover { /*Usado para configurar a o hover do botao "sobre nos"*/
+    color: #32293c;
+    background: #b6c2aa;
+    border-radius: 10px;
+    padding: 3%;
+    opacity: 1;
+ }
+/*==========fim do sobre nos*/
+
+/*============inico do que os pesticidas causam*/
+.oqpesticidas { /*usei para configurar a seção "oq pesticidas causam"*/
+    float: left;
+    padding: 50px;
+    background-color: #e5d8c5;
+    color: #270f27;
+ -moz-transition: all 0.9s;
+ -webkit-transition: all 0.9s;
+ transition: all 0.9s;
+ }
+.oqpesticidas:hover {
+    -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+    box-shadow: 0 0 2em #270f27;
+    border-radius: 20px;
+ }
+.imgoqpesticidas { /*usei para configurar a img da seção "oq pesticidas causam"*/
+    float: right;
+    width: 480px ;
+    height: 275px;
+    margin: 50px;
+    border-radius: 20px ;  
+}
+.titleoqpesticidas {
+    font-size: 50px;
+}
+.ppesticidas {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.btnsaiba { /*usei para configurar o botao "saiba ma"*/
+    margin: 100px;
+    margin-top: 200px;
+    color: #b6c2aa;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #485158;
+     }
+.btnsaiba:hover { /*Usado para configurar a o hover do botao "sobre nos"*/
+    color: #32293c;
+    background: #b6c2aa;
+    border-radius: 10px;
+    padding: 3%;
+}
+/*=========fim do que os pesticidas causam */
+
+/*=======inico da importancia dos adubos organicos */
+
+.impadubos { /*usei para configurar a seção "importancia dos adubos orgânicos"*/
+    float: left;
+    padding: 50px;
+    background-color:#7e5950 ;
+    font-size: 30px;
+    color: #270f27;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+ }
+ .impadubos:hover { 
+    -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 2em #270f27;
+ }
+ .titleimpadubos{
+
+    margin-bottom: 30px;
+ }
+.imgimpadubos { /*usei para configurar a img da seção "importancia dos adubos orgânicos"*/
+    float: left;
+    width: 305px ;
+    height:220px ;
+    margin: 50px;
+    border-radius: 20px;
+}
+.textimpadubos {
+    margin-bottom: 50px;
+}    
+/*===========fim da importancia dos adubos organicos */
+
+/*=============inicio dos cards*/
+
+.imgc { /*configura a imagem do 1 card*/
+    width: 250px;
+    height: 190px;
+}
+.cards.grid{ /*usado para colocar os cards um ao lado do outro*/
+    gap: 2rem;  
+    display: flex;
+    margin: 100px;
+}
+.cards .container{
+    margin: 0 auto;
+}
+.card{
+    padding: 5rem 3rem;
+    box-shadow: 0px 0px 15px  rgba(0,0,0,0.08);
+    border-bottom: 0.25rem solid ;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #927160 ;
+    color: #270f27;
+    text-align: center;
+    -moz-transition: all 0.9s;
+	-webkit-transition: all 0.9s;
+	transition: all 0.9s;   
+}
+
+.cardfora{
+    padding: 5rem 2rem;
+    box-shadow: 0px 0px 15px  rgba(0,0,0,0.08);
+    border-bottom: 0.25rem solid ;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #927160 ;
+    color: #270f27;
+    text-align: center;
+    -moz-transition: all 0.9s;
+	-webkit-transition: all 0.9s;
+	transition: all 0.9s;   
+}
+.card:hover, .cardfora:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.card .title{ /*usei para configurar o titulo dos cards*/
+    font-size: 1.5rem;  
+    text-align: center; 
+}
+/*====================fim dos cards*/
+
+/*================== inicio dos parceiros*/
+.parceirostotal { /*usado para configurar a area de parceiros*/
+    color: #b6c2aa;
+    margin-top: 3%;
+    margin-bottom: 5%₢;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.patrocinio { /*usei para colocar uma imagem ao lado da outra e configurar a margem*/
+    display: flex;
+    margin-left: 20%;
+    margin-top: 70px;
+}
+.parceiroIOS {
+    width:336px;
+    height:240px;
+    margin: 20px;
+    margin-top: -20px;
+}
+.parceiroCENSU {
+    width: 150px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.TOTVS {
+    width:340px; 
+    height: 100px;
+    margin: 20px;
+    margin-top: 50px;
+}
+.TOTVS, .parceiroCENSU, .parceiroIOS {
+    -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+}
+.TOTVS:hover,.parceiroCENSU:hover,.parceiroIOS:hover {
+       -moz-transform: scale(1.1);
+       -webkit-transform: scale(1.1);
+       transform: scale(1.1);
+   }
+/*======fim dos parceiros*/
+
+
+/*=======================================media query*/
+
+
+@media(max-width:1600px) {
+    body {
+    background-color: #e5d8c5;
+    
+    }
+   }
+
+
+   @media(max-width:980px) {
+    body {
+    background-color: #e5d8c5;
+
+    }
+
+    nav {
+        flex-direction:column-reverse;
+        display: flex;
+        margin-left: 5%;
+        margin-right: -5%;
+      
+        
+    }
+.emcima {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.login{
+    margin-top: -250px;
+}
+.titulo-nav {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+
+.sobrenos {
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0px;
+        width: 100%;
+        height: 50%;
+        padding-bottom: 25%;
+
+        background-position: center ;
+
+    background-color:#e5d8c5;
+    width:100%;  
+    min-height: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+      
+    }
+
+    
+
+    .titlesobre {
+        margin-left: 10%;
+    }
+
+    .psobre {
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+
+    .btnsobre {
+        margin-left: 30%;
+    }
+
+    
+    .oqpesticidas {
+        margin-left: 9%;
+        
+        padding-right:400px;
+        
+    }
+    
+   
+    .imgoqpesticidas {
+        margin-right: -30%;
+    }
+
+    .titleoqpesticidas {
+        margin-top: 70%;
+        margin-left: 10%;
+        margin-right: -60%;
+    }
+
+    .ppesticidas{
+
+    margin-left: 35%;
+    margin-right: -30%;
+    }
+    
+    
+
+ .impadubos {
+        margin-left:0% ;
+
+        padding-right: 400px;
+        border-radius: 20px;
+        
+    }
+
+    .imgimpadubos {
+        margin-left: 40%;
+        width: 480px ;
+        height:275px ;
+    }
+
+    .titleimpadubos {
+        margin-top: 70%;
+        margin-left: 15%;
+        margin-right: -40%;
+        text-align: center;
+    }
+
+    .textimpadubos{
+        margin-left: 30%;
+        margin-right: -40%;
+    }
+
+
+    .btnsaiba {
+        margin-left: 55%;
+        margin-right: -5%;
+    }
+
+    .cards {
+        flex-direction:column;  
+        margin-left: 10%;
+        margin-right: 2%;
+        padding-right: 10px;
+        padding-left: 100px;
+        
+    }
+
+    .parceirostotal {
+        margin-left: 6%;
+        margin-right: 7%;
+    }
+   
+    .patrocinio { /*usei para colocar uma imagem ao lado da outra e configurar a margem*/
+        flex-direction: column;  
+        display: flex;
+        margin: 0px;
+        margin-top: 70px;
+    }
+    .parceiroIOS {
+        width:440px;
+        height:250px;
+        margin-left: 15%;
+       
+    }
+    .parceiroCENSU {
+        width:440px;
+        height: 350px;
+        margin-left: 15%;
+    }
+    .TOTVS {
+        width:440px; 
+        height: 200px;
+        margin-left: 15%;
+    }
+    
+   }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================sobre nós*/
+
+
+
+
+.organic {
+ display: flexbox;
+ margin: 100px;
+ padding: 50px;
+}
+.imgOrganic {
+    width: 300px;
+    height: 450px;
+    float: left;
+    box-shadow: -30px 20px  #748e81, 0 0 2em #748e81;
+    border-radius: 10px;
+    margin-right: 50px;
+    -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+}
+
+.imgOrganic:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.historia {
+ display: flexbox;
+ margin-top: 250px;
+ margin-bottom: 250px;
+ margin-left: 150px;
+ margin-right: 150px;
+ padding-bottom: 150px;
+ padding: 100px;
+ background-color: #b6c2aa;
+ border-radius: 10px;
+ box-shadow: 0 0 1em #748e81;
+ box-shadow: 0 0 1em #7e5950;
+ -moz-transition: all 0.9s;
+-webkit-transition: all 0.9s;
+transition: all 0.9s;
+}
+
+.historia:hover{
+    -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+    box-shadow: 0 0 2em #270f27;
+    border-radius: 20px;
+}
+.imgHistoria {
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin-left: 5%;
+    margin-top: -5%;
+    border-radius: 10px;
+    border-right: solid 3px #3d3f4e;
+}
+.valor {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #7e5950;
+    -moz-transition: all 0.9s;
+ -webkit-transition: all 0.9s;
+ transition: all 0.9s;
+}
+
+.valor:hover{
+    -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+    box-shadow: 0 0 2em #270f27;
+    border-radius: 20px;
+}
+/*==========================media query */
+
+@media(max-width:980px) {
+    .organic {
+        margin-left: 20px;
+    }
+    .imgoOrganic{
+        margin-bottom: 5%;
+
+    }
+    .organicf {
+        text-align: center;
+    }
+    .imgOrganic {
+        margin-left: 25%;
+        width: 600px;
+        height: 600px;
+    }
+    .somos {
+       margin-left: 20%;
+       margin-right: 0px;
+    }
+    .historia {
+        margin-left: 9%;
+        margin-right: 0px;
+        padding: -30px;
+    }
+
+
+    
+
+    .titlehist{
+        text-align: center;
+    }
+    .imgHistoria {
+        margin-right: 10%;
+        width: 600px;
+        height: 600px;
+        margin-bottom: 5%;
+    }
+    .valor {
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================================================pesticidas*/
+
+
+
+.divs{
+    display: flexbox;
+    border-radius: 10px;
+    background:#b6c2aa;
+    margin: 70px;
+    margin-bottom: 1%;
+    padding: 70px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0 0 1em #7e5950;
+}
+.imgs{
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    height: 225px;
+    width: 340px;
+    border-radius: 10px;
+}
+
+.imgabelha {
+    float: left;
+    margin-top: -1%;
+    margin-right: 50px;
+    height: 225px;
+    width: 340px;
+    border-radius: 10px;
+}
+.divs h1 {
+    text-align: center;
+}
+
+.divs, .agua, .parte2 { /*usado para dar o efeito nos cards*/
+   -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+}
+
+.divs:hover, .agua:hover, .parte2:hover { /*usado para dar o efeito nos cards*/
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.agua {
+    display: flexbox;
+    background:#b6c2aa;
+    margin: 70px;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #7e5950;
+}
+.parte2 {
+    background:#b6c2aa;
+    margin: 70px;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #7e5950;
+}
+.teste {
+    text-align: center;
+}
+/*=======================================media query*/
+
+@media(max-width:980px) {
+    .imgs {/*usei para configurar as imagens  */
+        width: 600px;
+        height: 400px;
+         margin-left: 12%;
+         margin-top: 10px;
+    }
+
+    .imgabelha{
+        width: 600px;
+        height: 400px;
+         margin-left: 12%;
+         margin-top: 10px;
+         margin-bottom: 5%;
+    }
+    h1 { /*usei para configurar o h1 de "voce sabe quais venenos" e das abelhas */
+        margin-left: 3% ;
+        margin-top: 54%;
+    }
+
+    h3 {
+        margin-left: 3%;
+    }
+    p{ /*usei para configuarar os   paragrafos */
+        margin-left: 70px;     
+    }
+    .price-box { /*usei para configuarar o paragrafo de "um coquetel" */
+        margin-left: 10px;
+    }
+    .lado { /*usei para configuarar o paragrafo "de acordo com os engenheiros" */
+        margin-left: 10px;
+    }
+
+    .divs{
+        margin: 20px;
+        margin-left: 5%;
+    }
+
+    .agua {
+        margin: 20px;
+        margin-left: 5%;
+    }
+
+    .parte2 {
+        margin:20px;
+        margin-left: 5%;
+    }
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================Adubos*/
+
+
+.adubo-organico {
+    display: flexbox;
+    margin: 100px;
+    padding: 50px;
+}
+.imgs1 {
+    width:375px; 
+    height:250px; 
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: -30px 20px  #748e81, 0 0 2em #748e81;
+    float: left;
+}
+.pqmudar {
+    margin: 100px;
+    padding: 100px;
+    background:#748e81;  
+    color:#32293c;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #7e5950;
+}
+
+
+.adubo-organico, .pqmudar, .biopesticidas, .vantagens { /*usado para dar o efeito nos cards*/
+    -moz-transition: all 0.9s;
+     -webkit-transition: all 0.9s;
+     transition: all 0.9s;
+ }
+ 
+ .adubo-organico:hover, .pqmudar:hover, .biopesticidas:hover, .vantagens:hover { /*usado para dar o efeito nos cards*/
+     -moz-transform: scale(0.9);
+     -webkit-transform: scale(0.9);
+     transform: scale(0.9);
+ }
+.imgs2 {
+    width:384px; 
+    height:256px;
+    margin-left: 5%;
+    margin-top: -2%;
+    border-radius: 10px; 
+    float:right;
+}
+.biopesticidas {
+    display: flexbox;
+    margin: 100px;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+.imgs3 {
+    width: 385px;
+    height: 256px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: -30px 20px  #748e81, 0 0 2em #748e81;
+    float: left;
+}
+.vantagens {
+    margin-top: 150px;
+    margin: 100px;
+    padding: 100px;
+    padding-top: 50px;
+    border-radius: 10px;
+    background: #7e5950;
+    color: #270f27;
+}
+.titulovanta {
+    text-align: center;
+    margin: 50px;
+}
+
+
+/*===========================media query*/
+@media(max-width:980px) {
+  
+    .h2ad{ /*usei para configuarar  o h2 do adubos organicos */
+        text-align: center;
+    }
+    
+    .h2pq { /*usei para configurar o h2 do porque mudar*/
+      text-align: center;
+    }
+    .h2bio {/*usei para configurar o h2 do biopesticidas */
+       text-align: center;
+    }
+   
+    .imgs1 {/*usei para configurar a 1  imagem*/
+         margin-left: 10%;
+         margin-bottom: 30px;
+         width: 600px;
+         height:500px;
+    }
+    .imgs2 { /*usei para configuarar a 2 imagem */
+        margin-right:10%;
+        margin-top: -10%;
+        margin-bottom: 5%;
+        width: 600px;
+        height: 500px;
+    }
+    .imgs3 { /*usei para configuarar a 3 imagem */
+        margin-left: 8%;
+        margin-bottom: 30px;
+        width: 600px;
+        height: 500px;
+    }
+    .adubo-organico{
+        margin-left: 15%;
+    }
+    .pqmudar {
+        margin: 20px;
+        margin-left: 5%;
+    }
+    
+    .titulovanta {
+        margin-left: -10px;
+    }
+    .ul1 { /*usei para configuarar os itens da lista */
+        margin-left: 10px;
+        margin-right: 0px;
+        padding-left: 20px;
+    }
+    .biopesticidas{
+        margin-left: 15%;
+    }
+    .vantagens {
+        margin: 20px;
+        margin-left: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================================loja*/
+
+/*==================================inicio da seção boas vindas*/
+    .parte1 { /*configura o fundo da seção boas vindas */
+        background-color: #738e81;
+        background-image: url('./fundoloja1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 50%;   
+    min-height: 50px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin-bottom: -3%;
+    }
+    .titleboasvindas {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 570px;
+    color:  #32293c ;
+    text-align: center;
+    opacity: 0.6;
+    border-radius: 10px;
+    background: #98a794;
+    padding-left: 200px;
+   }
+    .texto1 { /*configura o texto da primeira seção*/
+        padding-left: 600px;
+        font-size: 25px;
+        color:#b6c2aa ;
+    }
+/*====================fim da seção boas vindas*/
+
+/*===================inicio do carrosel*/
+
+.backcarr { /*usei para configurar o background da seção do carrosel*/
+    background-color: #e5d8c5;
+}
+.legprod{ /*usei para configurar a letra do produto*/
+    color:  #270f27;
+    margin-bottom: -40px;
+    margin-bottom: -90px;
+}
+.saiba2 { /*usado para configurar a cor da escrita "saiba mais"*/
+    color: #270f27;
+    padding-top: 60px;
+}
+.titlemaior { /*usei para configurar o titulo do carrosel*/
+    padding-left: 100px;
+}
+.saibamais {
+color: #d1d1d1;
+}
+.carousel-control-prev-icon { /*usei para configurar o background no botão de passar o proximo slide*/
+    background-color: #738e81;
+}
+.carousel-control-next-icon { /*usei para configurar o background no botão de voltar o proximo slide*/
+    background-color: #738e81;
+}
+/*=================fim do carrosel*/
+
+/*====================inicio da tabela*/
+.wrapper { 
+        display: grid;
+        margin-left: 300px;
+        grid-template-columns: 20% 30% 20%;
+        grid-gap: 1em;
+        overflow-x: hidden; 
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    } 
+
+
+    .um, .dois, .tres {
+    -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+   }
+
+.um:hover, .dois:hover, .tres:hover{
+    -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+    box-shadow: 0 0 2em #270f27;
+    border-radius: 20px;
+}
+
+        .um {
+            background-color: #b6c2aa;
+            color: #32293c;
+            padding: 30px;
+            border-radius: 10px;  -moz-transition: all 0.9s;
+        -webkit-transition: all 0.9s;
+        transition: all 0.9s; 
+        }
+
+        .dois {
+            background-color:  #98a794;
+            color: #32293c;
+            padding: 30px;
+            border-radius: 10px;
+            -moz-transition: all 0.9s;
+            -webkit-transition: all 0.9s;
+            transition: all 0.9s; 
+        }
+
+        .tres {
+            background-color:  #748e81;
+            color: #32293c;
+            padding: 30px;
+            border-radius: 10px;
+            -moz-transition: all 0.9s;
+            -webkit-transition: all 0.9s;
+            transition: all 0.9s; 
+        }
+
+h3 {
+    text-align: center;
+}
+
+.btncadastre {
+    text-align: center;
+    background: #738e81;
+    margin-left: 350px;
+}
+/*=============fim da tabela*/
+
+
+
+
+/*==================================media query*/
+
+/*============inicio da seção tela de boas vindas */
+@media(max-width:980px) {
+    .parte1 { /*usei para configurar a seção boas vindas */
+        padding-left: 100px;
+        font-size: 50px; 
+    
+   
+        padding-top: 10%;
+        margin-left: 0%;
+    }
+    .titleboasvindas {   /*usei para configurar o titulo da seção boas vindas */
+        padding-left: 102px;
+        padding-top: 5%;
+        color: #270f27 ; 
+        margin-right: 90px;
+   }
+   body{
+    margin-left: -4%;
+    margin-right: -6%;
+    padding: -90px;
+   }
+   
+/*=====================fim do sobre nos*/
+
+/*====================inicio da tabela*/
+
+    .wrapper { /*usei para configurar um em baixo do outro  */
+    flex-direction: column;
+     margin-left: 2%;
+     padding-right: 20px;
+     display: block;
+     text-align: center;
+    }
+    .um, .dois, .tres { /*usei para configurar os plano*/
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+/*================fim da tabela*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================================================login*/
+*/* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    color: #270f27;
+    border: none;
+    box-sizing: border-box;
+  }*/
+
+  .bodylogin{
+    background-image: url('./oi.jpg');
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  a {
+    color: #485158;
+  }
+  
+  
+  /* form */
+  #main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #e5d8c5;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+  }
+  
+  #main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+    background-color: #e5d8c5;
+  }
+  
+  input:focus {
+    border-color: #485158;
+  }
+  
+  input[type="submit"] {
+    background-color: #485158;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
+
+  @media(max-width:980px) {
+    #main-container{
+        width: 90%
+    }
+    #main-container h1 {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 2.6rem;
+      }
+      
+      #main-container label{
+        font-size: 1.6rem;
+      }
+      #main-container input{
+        font-size: 1.6rem;
+      }
+  }
